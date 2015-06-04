@@ -1,33 +1,33 @@
-int varled3 = 3;
-int varled7 = 7;
-int varled8 = 8;
-int varled9 = 9;
+int firled3 = 3;
+int firled7 = 7;
+int firled8 = 8;
+int firled9 = 9;
 
 void setup() {
   
-  pinMode(varled3, OUTPUT);
-  pinMode(varled7, OUTPUT);
-  pinMode(varled8, OUTPUT);
-  pinMode(varled9, OUTPUT);
+  pinMode(firled3, OUTPUT);
+  pinMode(firled7, OUTPUT);
+  pinMode(firled8, OUTPUT);
+  pinMode(firled9, OUTPUT);
 }
 
 void loop() {
   
-  {digitalWrite(varled3, HIGH);
+  {digitalWrite(firled3, HIGH);
   delay(100);
-  digitalWrite(varled3, LOW);
+  digitalWrite(firled3, LOW);
   delay(100);}
-  {digitalWrite(varled7, HIGH);
+  {digitalWrite(firled7, HIGH);
   delay(100);
-  digitalWrite(varled7, LOW);
+  digitalWrite(firled7, LOW);
   delay(100);}
-  {digitalWrite(varled8, HIGH);
+  {digitalWrite(firled8, HIGH);
   delay(100);
-  digitalWrite(varled8, LOW);
+  digitalWrite(firled8, LOW);
 delay(100);}
-{digitalWrite(varled9,HIGH);
+{digitalWrite(firled9,HIGH);
 delay(100);
-digitalWrite(varled9,LOW);
+digitalWrite(firled9,LOW);
 delay(100);
 }
 }
